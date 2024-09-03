@@ -14,3 +14,19 @@ body {
     text-wrap: balance;
   }
 }
+
+.scroll-div {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.animate-div-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-div-right {
+  opacity: 1;
+  transform: translateX(100%);
+}
