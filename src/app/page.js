@@ -1,5 +1,6 @@
 import AccentureNews from "@/components/AccentureNews";
 import BannerSection from "@/components/BannerSection";
+import CareersSection from "@/components/CareersSection";
 import GlobalRecognition from "@/components/GlobalRecognition";
 import LandingLinkCard from "@/components/LandingLinkCard";
 import ValueSlider from "@/components/ValueSlider";
@@ -11,6 +12,7 @@ export default function Home() {
       <LandingLinkCard />
       <ValueSlider />
       <GlobalRecognition />
+      <CareersSection />
       <AccentureNews />
     </div>
   );
