@@ -1,9 +1,9 @@
-import AccentureNews from "@/components/AccentureNews";
-import BannerSection from "@/components/BannerSection";
-import CareersSection from "@/components/CareersSection";
-import GlobalRecognition from "@/components/GlobalRecognition";
-import LandingLinkCard from "@/components/LandingLinkCard";
-import ValueSlider from "@/components/ValueSlider";
+import AccentureNews from "@/components/landingPage/AccentureNews";
+import BannerSection from "@/components/landingPage/BannerSection";
+import CareersSection from "@/components/landingPage/CareersSection";
+import GlobalRecognition from "@/components/landingPage/GlobalRecognition";
+import LandingLinkCard from "@/components/landingPage/LandingLinkCard";
+import ValueSlider from "@/components/landingPage/ValueSlider";
 
 export default function Home() {
   return (

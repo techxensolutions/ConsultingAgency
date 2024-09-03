@@ -71,8 +71,8 @@ const CareersSection = () => {
             Grow your career at the heart of change
           </h2>
           <p className="text-white text-2xl mt-2">
-            It's your time to shine. Bring your ingenuity, curiosity and big
-            ideas.
+            It&apos;s your time to shine. Bring your ingenuity, curiosity and
+            big ideas.
           </p>
           <Link href="#" className="mt-6 flex  items-center  text-white  ">
             <span className="mr-3 font-bold"> See what we do</span>
