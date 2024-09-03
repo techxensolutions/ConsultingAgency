@@ -69,7 +69,7 @@ const GlobalRecognition = () => {
             A Great Place to Work
           </h2>
           <p className=" text-lg font-serif opacity-0 transform translate-y-full transition-opacity transition-transform duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-            No. 10 on the World's Best Workplaces™ list. This recognition is
+            No. 10 on the World&#39;s Best Workplaces™ list. This recognition is
             based on feedback from our people—measuring their level of trust,
             pride and camaraderie at work.
           </p>
@@ -98,7 +98,7 @@ const GlobalRecognition = () => {
             A Great Place to Work
           </h2>
           <p className=" text-lg font-serif opacity-0 transform translate-y-full transition-opacity transition-transform duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-            No. 10 on the World's Best Workplaces™ list. This recognition is
+            No. 10 on the World&#39;s Best Workplaces™ list. This recognition is
             based on feedback from our people—measuring their level of trust,
             pride and camaraderie at work.
           </p>
@@ -127,7 +127,7 @@ const GlobalRecognition = () => {
             A Great Place to Work
           </h2>
           <p className=" text-lg font-serif opacity-0 transform translate-y-full transition-opacity transition-transform duration-300 group-hover:opacity-100 group-hover:translate-y-0">
-            No. 10 on the World's Best Workplaces™ list. This recognition is
+            No. 10 on the World&#39;s Best Workplaces™ list. This recognition is
             based on feedback from our people—measuring their level of trust,
             pride and camaraderie at work.
           </p>
