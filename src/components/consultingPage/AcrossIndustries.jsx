@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AcrossIndustries = () => {
@@ -70,14 +71,21 @@ const AcrossIndustries = () => {
                 <div className="p-6 ">
                   <h3 className="text-xl font-bold mb-4">{industry.title}</h3>
                   <ul className="space-y-1">
-                    {industry.subcategories.map((subcategory, idx) => (
-                      <li
-                        key={idx}
-                        className="text-primary underline hover:text-blue-600 cursor-pointer"
-                      >
-                        {subcategory}
-                      </li>
-                    ))}
+                    {industry.subcategories.map((subcategory, idx) => {
+                      const linkUrl =
+                        subcategory.toLowerCase() === "health"
+                          ? "/health"
+                          : "#";
+
+                      return (
+                        <li
+                          key={idx}
+                          className="text-primary underline hover:text-blue-600 cursor-pointer"
+                        >
+                          <Link href={linkUrl}>{subcategory}</Link>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               </div>

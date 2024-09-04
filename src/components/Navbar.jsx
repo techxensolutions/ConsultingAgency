@@ -33,8 +33,8 @@ const Navbar = () => {
       ],
     },
     {
-      title: "What we think",
-      path: "/what-we-think",
+      title: "Consulting",
+      path: "/consulting",
       subcategories: [],
     },
     {
@@ -180,7 +180,8 @@ const Navbar = () => {
                 onClick={() => handleLinkClick(idx)}
                 className="cursor-pointer"
               >
-                {item.title}
+                <Link href={item.path}>{item.title}</Link>
+
                 {item?.subcategories?.length > 0 && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
