@@ -15,18 +15,23 @@ body {
   }
 }
 
+/* global */
 .scroll-div {
   opacity: 0;
   transform: translateX(-100%);
   transition: transform 0.5s ease-out, opacity 0.5s ease-out;
 }
-
 .animate-div-left {
   opacity: 1;
   transform: translateX(0);
 }
-
 .animate-div-right {
   opacity: 1;
   transform: translateX(100%);
 }
+.animate-div-center {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+/*  */

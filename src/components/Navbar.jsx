@@ -111,7 +111,7 @@ const Navbar = () => {
   return (
     <div className="items-center px-8 max-w-screen-xl mx-auto md:flex md:px-12">
       <div className="flex items-center justify-between py-3 md:py-5 md:block">
-        <Link href="">
+        <Link href="/">
           <span>
             <svg
               role="img"
@@ -168,7 +168,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-       ref={dropdownRef}
+        ref={dropdownRef}
         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
           state ? "block" : "hidden"
         }`}
@@ -196,18 +196,18 @@ const Navbar = () => {
               </div>
               {activeIndex === idx && item.subcategories.length > 0 && (
                 <div className="relative">
-                  <div className="absolute left-0 w-96  mt-2  bg-white text-black p-4 shadow-lg rounded-md z-10">
+                  <div className="absolute left-0 w-96  mt-2  bg-white text-black p-4 shadow-lg rounded-md z-40">
                     {item.subcategories.map((sub, subIdx) => (
                       <div key={subIdx} className="hover:bg-gray-200 p-2">
                         {Array.isArray(sub.subcategories) &&
                         sub.subcategories.length > 0 ? (
                           <>
-                            <div>{sub.title}</div>
+                            <div className="font-bold">{sub.title}</div>
                             <div className="ml-4">
                               {sub.subcategories.map((subSub, subSubIdx) => (
                                 <div
                                   key={subSubIdx}
-                                  className="hover:bg-gray-200 p-2"
+                                  className="hover:bg-gray-200 p-2 cursor-pointer"
                                 >
                                   {subSub}
                                 </div>

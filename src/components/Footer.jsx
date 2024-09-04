@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="px-8 max-w-screen-xl mx-auto text-white bg-black">
+    <div className="px-8 max-w-screen-xl mx-auto text-white bg-black pt-12">
       <div className="flex justify-between items-start">
         <div className="space-y-16">
           <h2 className="text-3xl font-bold">Let there be change</h2>
