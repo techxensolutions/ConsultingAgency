@@ -18,7 +18,7 @@ const EnterpriseReinvention = () => {
           Total Enterprise Reinvention
         </h1>
         <p className="text-lg text-gray-700 mt-4">
-          See how "Reinventors" are setting a new performance frontier for their
+          See how &quot;Reinventors&quot; are setting a new performance frontier for their
           companies—and entire industries.
         </p>
         <button className="mt-6 px-4 py-2 bg-black text-white font-semibold hover:bg-gray-800 transition">
