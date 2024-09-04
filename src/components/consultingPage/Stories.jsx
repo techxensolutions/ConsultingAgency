@@ -16,10 +16,10 @@ const Stories = () => {
         </div>
         <div className="p-6 ">
           <p className="mb-6 font-bold text-md">
-            Accenture’s CEO Julie Sweet discusses Mars’ digital transformation
+            Accenture&apos;s CEO Julie Sweet discusses Mars&apos; digital transformation
           </p>
           <p className="mb-6 text-md">
-            Accenture’s chair and CEO Julie Sweet sat down with Sandeep Dadlani
+            Accenture&apos;s chair and CEO Julie Sweet sat down with Sandeep Dadlani
             to discuss how the partnership with Mars helped them catapult to
             becoming a digital-first industry leader.
           </p>

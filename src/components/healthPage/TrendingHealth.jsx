@@ -81,7 +81,7 @@ const TrendingHealth = () => {
   return (
     <div className="py-8 md:py-16">
       <h1 className="text-4xl font-bold text-white mb-8">
-        What’s trending in health
+        What&apos;s trending in health
       </h1>
       <Link href="#" className="flex items-center text-white">
         <span className="mr-3 font-bold">View all work</span>

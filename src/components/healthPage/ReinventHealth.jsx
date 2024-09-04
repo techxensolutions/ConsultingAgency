@@ -23,7 +23,7 @@ const ReinventHealth = () => {
               <p className="text-white mt-6">
                 of healthcare execs believe continuous advances in technology
                 are becoming more reliable than economic, political or social
-                trends in informing their organization’s long-term strategy.
+                trends in informing their organization&apos;s long-term strategy.
               </p>
             </div>
             <div className="flex justify-end">

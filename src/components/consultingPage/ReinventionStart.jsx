@@ -16,13 +16,13 @@ const ReinventionStart = () => {
           </p>
           <p className="mb-6 text-lg">
             These advances have never been more critical, nor more necessary.
-            That’s because unprecedented uncertainty and volatility call for
+            That&apos;s because unprecedented uncertainty and volatility call for
             businesses in every industry to activate new levels of innovation
             and launch rapid transformations that only digital technologies can
             make possible.
           </p>
           <p className="mb-6 text-lg">
-            In short, today’s business environment demands total enterprise
+            In short, today&apos;s business environment demands total enterprise
             reinvention.
           </p>
           <p className="mb-6 text-lg">
@@ -37,7 +37,7 @@ const ReinventionStart = () => {
             Along the way, we deliver what matters most: results.
           </p>
           <blockquote className="mt-6 border-l-4 border-primary pl-4  text-black text-4xl mb-6">
-            It’s reinvention that’s designed for you. And it starts here.
+            It&apos;s reinvention that&apos;s designed for you. And it starts here.
           </blockquote>
         </div>
 

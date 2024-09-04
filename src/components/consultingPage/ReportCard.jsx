@@ -24,7 +24,7 @@ const ReportCard = () => {
               href="#"
               className=" font-bold relative text-[#004DFE] cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-400 before:absolute before:bg-[#004DFE] before:h-[3px] before:w-0 hover:before:w-[50%] before:-bottom-2 before:left-0 after:transition-[width] after:ease-in-out after:duration-400 after:absolute after:bg-[#004DFE] after:h-[3px] after:w-0 hover:after:w-[50%] after:-bottom-2 after:right-0"
             >
-              <span className="mr-2">Read more</span>→
+              <span className="mr-2 ">Read more</span>&#x2794;
             </Link>
           </div>
         </div>

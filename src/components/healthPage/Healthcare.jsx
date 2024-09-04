@@ -34,7 +34,7 @@ const Healthcare = () => {
             <div className="w-[40px] h-[5px] bg-primary mb-6"></div>
             <h3 className="text-5xl font-bold text-white">70%</h3>
             <p className="text-white mt-8">
-              of healthcare workers’ tasks in the US could be redesigned by
+              of healthcare workers&apos; tasks in the US could be redesigned by
               technology augmentation or automation
             </p>
           </div>
